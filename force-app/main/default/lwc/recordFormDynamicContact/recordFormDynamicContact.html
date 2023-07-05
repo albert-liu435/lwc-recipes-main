@@ -3,6 +3,13 @@
         title="RecordFormDynamicContact"
         icon-name="standard:contact"
     >
+
+    <!-- 使用 lightning-record-form 系列预定义组件，直接读取和操作数据 -->
+<!-- 
+    view：显示数据，具有 inline 的编辑功能
+edit：直接显示数据编辑界面
+readonly：只能显示数据，无法编辑 -->
+
         <div class="slds-var-m-around_medium">
             <lightning-record-form
                 object-api-name={objectApiName}
